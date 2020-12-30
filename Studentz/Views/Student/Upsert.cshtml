@@ -1,0 +1,119 @@
+﻿@model Studentz.Models.Student
+
+<br />
+<h2 class="text-info">@(Model.Id!=0 ? "Edit" : "Create") Student</h2>
+<br />
+
+<div class="border container" style="padding:30px">
+    <form method="post">
+        @if (Model.Id != 0)
+        {
+            <input type="hidden" asp-for="Id" />
+        }
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="firstName"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="firstName" class="form-control" />
+                <span asp-validation-for="firstName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="lastName"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="lastName" class="form-control" />
+                <span asp-validation-for="lastName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="birthDate"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="birthDate" class="form-control" />
+                <span asp-validation-for="birthDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="studentGender"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="studentGender" class="form-control" />
+                <span asp-validation-for="studentGender" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="email"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="phoneNumber"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="phoneNumber" class="form-control" />
+                <span asp-validation-for="phoneNumber" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="address"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="address" class="form-control" />
+                <span asp-validation-for="address" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="houseNumber"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="houseNumber" class="form-control" />
+                <span asp-validation-for="houseNumber" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="zip"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="zip" class="form-control" />
+                <span asp-validation-for="zip" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="location"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="location" class="form-control" />
+                <span asp-validation-for="location" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3 offset-3">
+                <button type="submit" class="btn btn-primary form-control">
+                    @(Model.Id != 0 ? "Update" : "Create")
+                </button>
+            </div>
+            <div class="col-3">
+                <a asp-action="Index" class="btn btn-success form-control">Back to list</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
