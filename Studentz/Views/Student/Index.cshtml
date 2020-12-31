@@ -1,27 +1,29 @@
-﻿<br />
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+
+<br />
 <div class="container row p-0 m-0">
     <div class="col-6">
-        <h2 class="text-info">Student List</h2>
+        <h2 class="text-info">@localizer["StudentList"]</h2>
     </div>
     <div class="col-3 offset-3">
         <a asp-action="Upsert" asp-controller="Student" class="btn btn-info form-control text-white">
-            Add new Student
+            @localizer["Add"]
         </a>
     </div>
     <div class="col-16 border p-3">
         <table id="DT_load" class="table table-striped table-bordered" style="width:100%">
             <thead>
                 <tr>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>BirthDate</th>
-                    <th>Gender</th>
-                    <th>Email</th>
-                    <th>Phone Number</th>
-                    <th>Address</th>
-                    <th>House Number</th>
-                    <th>ZIP</th>
-                    <th>Location</th>
+                    <th>@localizer["FirstName"]</th>
+                    <th>@localizer["LastName"]</th>
+                    <th>@localizer["BirthDate"]</th>
+                    <th>@localizer["Gender"]</th>
+                    <th>@localizer["Email"]</th>
+                    <th>@localizer["PhoneNumber"]</th>
+                    <th>@localizer["Address"]</th>
+                    <th>@localizer["HouseNumber"]</th>
+                    <th>@localizer["Zip"]</th>
+                    <th>@localizer["Location"]</th>
                     <th></th>
                 </tr>
             </thead>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="StudentList">
+        <value>Liste d'étudiants</value>
+    </data>
+    <data name="Add">
+        <value>Ajouter un nouveau étudiant</value>
+    </data>
+    <data name="FirstName">
+        <value>Prénom</value>
+    </data>
+    <data name="LastName">
+        <value>Nom de famille</value>
+    </data>
+    <data name="BirthDate">
+        <value>Date de naissance</value>
+    </data>
+    <data name="Gender">
+        <value>Sex</value>
+    </data>
+    <data name="Email">
+        <value>Adresse e-mail</value>
+    </data>
+    <data name="PhoneNumber">
+        <value>Numéro de telephone</value>
+    </data>
+    <data name="Address">
+        <value>Adresse</value>
+    </data>
+    <data name="HouseNumber">
+        <value>Numéro de maison</value>
+    </data>
+    <data name="Zip">
+        <value>Code postal</value>
+    </data>
+    <data name="Location">
+        <value>Commune</value>
+    </data>
+</root>

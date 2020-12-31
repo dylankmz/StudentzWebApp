@@ -20,6 +20,8 @@
     <Folder Include="Resources\Views\" />
     <Folder Include="Resources\Views\Home\" />
     <Folder Include="Resources\Controllers\" />
+    <Folder Include="Resources\Views\Shared\" />
+    <Folder Include="Resources\Views\Student\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Resources\Views\Home\Index.en.resx">
@@ -46,6 +48,34 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>HomeController.nl.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Shared\_Layout.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>_Layout.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Shared\_Layout.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>_Layout.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Shared\_Layout.nl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>_Layout.nl.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Student\StudentController.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Student\StudentController.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Student\Index.nl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index.nl.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Resources\Views\Student\StudentController.en.Designer.cs" />
+    <Compile Remove="Resources\Views\Student\StudentController.nl.Designer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Resources\Views\Home\Index.en.Designer.cs">
@@ -65,6 +95,24 @@
     </Compile>
     <Compile Update="Resources\Controllers\HomeController.nl.Designer.cs">
       <DependentUpon>HomeController.nl.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Shared\_Layout.en.Designer.cs">
+      <DependentUpon>_Layout.en.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Shared\_Layout.fr.Designer.cs">
+      <DependentUpon>_Layout.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Shared\_Layout.nl.Designer.cs">
+      <DependentUpon>_Layout.nl.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Student\StudentController.fr.Designer.cs">
+      <DependentUpon>Index.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Student\Index.en.Designer.cs">
+      <DependentUpon>Index.en.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Student\Index.nl.Designer.cs">
+      <DependentUpon>Index.nl.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

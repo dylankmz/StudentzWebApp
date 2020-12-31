@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Localization;
 using Microsoft.EntityFrameworkCore;
 using Studentz.Models;
 using Studentz.Models.Data;
@@ -11,18 +14,30 @@ namespace Studentz.Controllers
 {
     public class StudentController : Controller
     {
+        private readonly IHtmlLocalizer<HomeController> _localizer;
+
         private readonly ApplicationDbContext _db;
 
         [BindProperty]
         public Student Student { get; set; }
-        public StudentController(ApplicationDbContext db)
+        public StudentController(ApplicationDbContext db, IHtmlLocalizer<HomeController> localizer)
         {
+            _localizer = localizer;
             _db = db;
         }
 
         public IActionResult Index()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult CultureManagement(string culture, string returnUrl)
+        {
+            Response.Cookies.Append(CookieRequestCultureProvider.DefaultCookieName, CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)),
+                new CookieOptions { Expires = DateTimeOffset.Now.AddDays(30) });
+
+            return LocalRedirect(returnUrl);
         }
 
         [HttpGet]

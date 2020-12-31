@@ -12,11 +12,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="Welcome">
-        <value>Welkom bij Studentz!</value>
+     <data name="Home">
+        <value>Home</value>
     </data>
-    <data name="Intro">
-        <value>Tool om studenten te kunnen registreren in uw schoolcampus!</value>
+    <data name="Students">
+        <value>Students</value>
     </data>
-   
 </root>
