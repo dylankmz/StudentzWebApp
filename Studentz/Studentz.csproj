@@ -72,6 +72,18 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Index.nl.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Student\Upsert.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Upsert.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Student\Upsert.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Upsert.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Views\Student\Upsert.nl.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Upsert.nl.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Resources\Views\Student\StudentController.en.Designer.cs" />
@@ -113,6 +125,15 @@
     </Compile>
     <Compile Update="Resources\Views\Student\Index.nl.Designer.cs">
       <DependentUpon>Index.nl.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Student\Upsert.en.Designer.cs">
+      <DependentUpon>Upsert.en.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Student\Upsert.fr.Designer.cs">
+      <DependentUpon>Upsert.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Views\Student\Upsert.nl.Designer.cs">
+      <DependentUpon>Upsert.nl.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

@@ -163,3 +163,7 @@
 /Users/kmz/Documents/NETFrameworks/Studentz/Studentz/obj/Debug/net5.0/Studentz.pdb
 /Users/kmz/Documents/NETFrameworks/Studentz/Studentz/obj/Debug/net5.0/Studentz.genruntimeconfig.cache
 /Users/kmz/Documents/NETFrameworks/Studentz/Studentz/obj/Debug/net5.0/Studentz.Resources.Views.Student.Index.nl.resources
+/Users/kmz/Documents/NETFrameworks/Studentz/Studentz/obj/Debug/net5.0/Studentz.csprojAssemblyReference.cache
+/Users/kmz/Documents/NETFrameworks/Studentz/Studentz/obj/Debug/net5.0/Studentz.Resources.Views.Student.Upsert.en.resources
+/Users/kmz/Documents/NETFrameworks/Studentz/Studentz/obj/Debug/net5.0/Studentz.Resources.Views.Student.Upsert.fr.resources
+/Users/kmz/Documents/NETFrameworks/Studentz/Studentz/obj/Debug/net5.0/Studentz.Resources.Views.Student.Upsert.nl.resources

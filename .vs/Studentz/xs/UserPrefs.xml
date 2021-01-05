@@ -1,19 +1,21 @@
 ﻿<Properties StartupConfiguration="{B67F5103-8040-47BF-A899-4BE695FF166D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Studentz/Resources/Views/Student/Index.nl.resx">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Studentz/Views/Student/Index.cshtml">
     <Files>
-      <File FileName="Studentz/Resources/Controllers/StudentController.en.resx" Line="10" Column="41" />
       <File FileName="Studentz/Models/Student.cs" Line="55" Column="1" />
-      <File FileName="Studentz/Resources/Controllers/StudentController.fr.resx" Line="23" Column="12" />
-      <File FileName="Studentz/Views/Student/Upsert.cshtml" Line="1" Column="1" />
-      <File FileName="Studentz/Controllers/StudentController.cs" Line="29" Column="37" />
-      <File FileName="Studentz/Views/Home/Index.cshtml" Line="10" Column="1" />
-      <File FileName="Studentz/Resources/Controllers/HomeController.en.resx" Line="18" Column="5" />
-      <File FileName="Studentz/Views/Student/Index.cshtml" Line="26" Column="52" />
-      <File FileName="Studentz/Views/Shared/_Layout.cshtml" Line="24" Column="56" />
-      <File FileName="Studentz/Views/Shared/_Culture.cshtml" Line="1" Column="1" />
+      <File FileName="Studentz/Views/Student/Upsert.cshtml" Line="23" Column="19" />
+      <File FileName="Studentz/Controllers/StudentController.cs" />
+      <File FileName="Studentz/Views/Home/Index.cshtml" />
+      <File FileName="Studentz/Resources/Controllers/HomeController.en.resx" />
+      <File FileName="Studentz/Views/Student/Index.cshtml" Line="21" Column="49" />
+      <File FileName="Studentz/Views/Shared/_Layout.cshtml" />
+      <File FileName="Studentz/Views/Shared/_Culture.cshtml" />
       <File FileName="Studentz/Controllers/HomeController.cs" Line="24" Column="10" />
-      <File FileName="Studentz/Views/Shared/_ValidationScriptsPartial.cshtml" Line="3" Column="1" />
-      <File FileName="Studentz/Resources/Views/Student/Index.nl.resx" Line="39" Column="26" />
+      <File FileName="Studentz/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="Studentz/Resources/Views/Student/Index.nl.resx" Line="50" Column="12" />
+      <File FileName="Studentz/Resources/Views/Student/Upsert.en.resx" Line="45" Column="4" />
+      <File FileName="Studentz/Resources/Views/Student/Upsert.nl.resx" Line="46" Column="35" />
+      <File FileName="Studentz/Resources/Views/Student/Upsert.fr.resx" Line="46" Column="30" />
+      <File FileName="Studentz/wwwroot/js/StudentList.js" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,17 +25,28 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Resources" expanded="True">
-                <Node name="Controllers" expanded="True" />
                 <Node name="Views" expanded="True">
-                  <Node name="Student" expanded="True">
-                    <Node name="Index.nl.resx" selected="True" />
-                  </Node>
+                  <Node name="Student" expanded="True" />
                 </Node>
               </Node>
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
-                <Node name="Student" expanded="True" />
+                <Node name="Student" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True" />
+                    </Node>
+                  </Node>
+                  <Node name="jquery" expanded="True">
+                    <Node name="dist" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
             </Node>
           </Node>
