@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using Microsoft.EntityFrameworkCore;
+using Studentz.Models;
 
 namespace Studentz.Models.Data
 {
@@ -10,5 +11,7 @@ namespace Studentz.Models.Data
         }
 
         public DbSet<Student> students { get; set; }
+
+        public DbSet<Studentz.Models.Course> Course { get; set; }
     }
 }

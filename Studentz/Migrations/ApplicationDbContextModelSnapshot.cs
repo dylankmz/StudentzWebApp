@@ -19,6 +19,30 @@ namespace Studentz.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.1");
 
+            modelBuilder.Entity("Studentz.Models.Course", b =>
+                {
+                    b.Property<int>("courseID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("courseClass")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("courseName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("language")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("courseID");
+
+                    b.ToTable("Course");
+                });
+
             modelBuilder.Entity("Studentz.Models.Student", b =>
                 {
                     b.Property<int>("Id")

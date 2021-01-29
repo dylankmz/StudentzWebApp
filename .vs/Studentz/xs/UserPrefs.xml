@@ -1,21 +1,17 @@
 ﻿<Properties StartupConfiguration="{B67F5103-8040-47BF-A899-4BE695FF166D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Studentz/Views/Student/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Studentz/Models/Student.cs">
     <Files>
-      <File FileName="Studentz/Models/Student.cs" Line="55" Column="1" />
-      <File FileName="Studentz/Views/Student/Upsert.cshtml" Line="23" Column="19" />
+      <File FileName="Studentz/Views/Shared/_Layout.cshtml" Line="30" Column="30" />
+      <File FileName="Studentz/Models/Course.cs" Line="26" Column="1" />
       <File FileName="Studentz/Controllers/StudentController.cs" />
-      <File FileName="Studentz/Views/Home/Index.cshtml" />
-      <File FileName="Studentz/Resources/Controllers/HomeController.en.resx" />
-      <File FileName="Studentz/Views/Student/Index.cshtml" Line="21" Column="49" />
-      <File FileName="Studentz/Views/Shared/_Layout.cshtml" />
-      <File FileName="Studentz/Views/Shared/_Culture.cshtml" />
-      <File FileName="Studentz/Controllers/HomeController.cs" Line="24" Column="10" />
-      <File FileName="Studentz/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="Studentz/Resources/Views/Student/Index.nl.resx" Line="50" Column="12" />
-      <File FileName="Studentz/Resources/Views/Student/Upsert.en.resx" Line="45" Column="4" />
-      <File FileName="Studentz/Resources/Views/Student/Upsert.nl.resx" Line="46" Column="35" />
-      <File FileName="Studentz/Resources/Views/Student/Upsert.fr.resx" Line="46" Column="30" />
-      <File FileName="Studentz/wwwroot/js/StudentList.js" Line="1" Column="1" />
+      <File FileName="Studentz/Models/Student.cs" Line="19" Column="36" />
+      <File FileName="Studentz/wwwroot/js/StudentList.js" Line="57" Column="26" />
+      <File FileName="Studentz/Views/Student/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Studentz/Views/Student/Upsert.cshtml" />
+      <File FileName="Studentz/Resources/Views/Student/Index.en.resx" />
+      <File FileName="Studentz/wwwroot/js/site.js" />
+      <File FileName="Studentz/Models/ErrorViewModel.cs" />
+      <File FileName="Studentz/Controllers/HomeController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,30 +19,16 @@
           <Node name="Studentz" expanded="True">
             <Node name="Studentz" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Student.cs" selected="True" />
+              </Node>
               <Node name="Resources" expanded="True">
-                <Node name="Views" expanded="True">
-                  <Node name="Student" expanded="True" />
-                </Node>
+                <Node name="Views" expanded="True" />
               </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Student" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-              </Node>
+              <Node name="Views" expanded="True" />
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
                 <Node name="js" expanded="True" />
-                <Node name="lib" expanded="True">
-                  <Node name="bootstrap" expanded="True">
-                    <Node name="dist" expanded="True">
-                      <Node name="css" expanded="True" />
-                    </Node>
-                  </Node>
-                  <Node name="jquery" expanded="True">
-                    <Node name="dist" expanded="True" />
-                  </Node>
-                </Node>
               </Node>
             </Node>
           </Node>
@@ -54,7 +36,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Studentz PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Studentz PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

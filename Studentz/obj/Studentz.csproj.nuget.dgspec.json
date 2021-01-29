@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kmz/Documents/NETFrameworks/Studentz/Studentz/Studentz.csproj": {}
+    "\\\\Mac\\Home\\Documents\\NETFrameworks\\Studentz\\Studentz\\Studentz.csproj": {}
   },
   "projects": {
-    "/Users/kmz/Documents/NETFrameworks/Studentz/Studentz/Studentz.csproj": {
+    "\\\\Mac\\Home\\Documents\\NETFrameworks\\Studentz\\Studentz\\Studentz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kmz/Documents/NETFrameworks/Studentz/Studentz/Studentz.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Documents\\NETFrameworks\\Studentz\\Studentz\\Studentz.csproj",
         "projectName": "Studentz",
-        "projectPath": "/Users/kmz/Documents/NETFrameworks/Studentz/Studentz/Studentz.csproj",
-        "packagesPath": "/Users/kmz/.nuget/packages/",
-        "outputPath": "/Users/kmz/Documents/NETFrameworks/Studentz/Studentz/obj/",
+        "projectPath": "\\\\Mac\\Home\\Documents\\NETFrameworks\\Studentz\\Studentz\\Studentz.csproj",
+        "packagesPath": "C:\\Users\\kmz\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Documents\\NETFrameworks\\Studentz\\Studentz\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/kmz/.config/NuGet/NuGet.Config"
+          "C:\\Users\\kmz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +45,10 @@
               "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.1, )"
             },
@@ -78,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

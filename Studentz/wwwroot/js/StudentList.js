@@ -23,7 +23,6 @@ function loadDataTable() {
             { "data": "zip", "width": "10%" },
             { "data": "location", "width": "10%" },
 
-           
             {
                 "data": "id",
                 "render": function (data) {
